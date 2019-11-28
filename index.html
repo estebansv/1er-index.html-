@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
+<head >
     <meta charset="utf-8"/>
     <title>Pirmera pagína Web</title>
 <meta name="description" content="Esta es mi primer  Pagina Web" />
 <meta name="author" content="@ruido38"/>
 <meta name="keywords" content="Mi Primer titulo, mi primer pagina, pagina web">
-  
+ <link rel="stylesheet" href="estilo.css"> 
 </head>
 
 <body>
-`<header>
+        <div class="agrupar">
+    `<header class="cabecera">
         <h1>Mi Blog</h1>
         
 </header>
     
-<nav>
+<nav class="menu">
         <ul>
                 <li>Principal</li>
                 <li>Ayuda</li>
@@ -24,23 +25,25 @@
                 </ul>  
                 <ul>
     </nav>
-    <img src="imagenes\logo.jpg" alt="">
-    <section>
+    
+    <section class="seccion">
         <article> 
             <hgroup>
             <h1>Título del 1er articulo</h1>
             <H2>Subtitulo del 1er Articulo</H2>
         </hgroup>    
        <time datetime="21-11-2019">Publiado en 21 de Nov. 2019</time>  
+       <img src="imagenes\logo.jpg" alt=" ">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et incidunt necessitatibus consequuntur totam fugiat quibusdam
              iure? Veritatis, et, ad labore sit quo esse pariatur itaque quidem mollitia perferendis animi velit.</p>
-        </article>
+
        
         <footer>
             <p>Comentarios (10)</p>
         </footer>
     <a href="http://ruidoinfo.blogspot.com/">Visita mi S itio Web</a>
-        <article>
+</article>   
+    <article>
                 <hgroup>
                         <h1>Título del 1er articulo</h1>
                         <H2>Subtitulo del 2d0 Articulo</H2>
@@ -55,24 +58,26 @@
 </article>
         </section>
 
-    <aside>
-       <blockquote cite="http://google.com">
+    <aside class="columna">
+       <blockquote >
         Mensaje 1
        </blockquote>
-       Mensaje 2
+
+     
        <blockquote>
-           
+            Mensaje 2
         </blockquote>
 
        
     </aside>
     
-    <footer>
+    <footer class="pie">
 
         Derechos Reservados 2010 -2019
     </footer>
     
 
+</div>
        
    
 </body>
